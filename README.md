@@ -74,10 +74,12 @@ A comprehensive Java EE web application for managing students and courses, built
 3. **Configure Database Credentials**
 Open *src/main/java/com/university/util/DBUtil.java*
 Update the **URL**, **USER**, and **PASSWORD*** constants to match your MySQL setup.
+
 4. **Import into NetBeans**
 In NetBeans, choose **File > Open Project**
 Navigate to the cloned directory
 Select the project (it will detect the Maven Web Application)
+
 5. **Build & Deploy**
 Right-click the project -> **Clean and Build**
 Ensure Apache Tomcat is configured under **Tools > Servers**
