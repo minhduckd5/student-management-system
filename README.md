@@ -68,7 +68,8 @@ A comprehensive Java EE web application for managing students and courses, built
 2. **Clone the repository**  
    ```bash
    git clone https://github.com/minhduckd5/student-management-system.git
-   cd student-management-system```
+   cd student-management-system
+```
 
 3. **Configure Database Credentials**
 Open *src/main/java/com/university/util/DBUtil.java*
