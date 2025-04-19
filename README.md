@@ -11,8 +11,8 @@ A comprehensive Java EE web application for managing students and courses, built
 - **MySQL Connector/J JDBC Driver**  
 
 ## Getting Started
-1. **Set up Database**
-	Open MySQL command line or workbench
+1. **Set up Database**\
+	Open MySQL command line or workbench\
 	Run the following SQL commands:
 	
 	```sql
@@ -64,26 +64,26 @@ A comprehensive Java EE web application for managing students and courses, built
 	ON DELETE SET NULL
 	ON UPDATE CASCADE;
 	```
-***You can optionally download sql file or backup at [release page](https://github.com/minhduckd5/student-management-system/releases/tag/SQL-Queries "Title")***
+***You can optionally download sql file or backup at [release page](https://github.com/minhduckd5/student-management-system/releases/tag/SQL-Queries "Title")***\
 2. **Clone the repository**  
    ```bash
    git clone https://github.com/minhduckd5/student-management-system.git
    cd student-management-system
 ```
 
-3. **Configure Database Credentials**
-Open *src/main/java/com/university/util/DBUtil.java*
+3. **Configure Database Credentials**\
+Open *src/main/java/com/university/util/DBUtil.java*\
 Update the **URL**, **USER**, and **PASSWORD*** constants to match your MySQL setup.
 
-4. **Import into NetBeans**
-In NetBeans, choose **File > Open Project**
-Navigate to the cloned directory
+4. **Import into NetBeans**\
+In NetBeans, choose **File > Open Project**\
+Navigate to the cloned directory\
 Select the project (it will detect the Maven Web Application)
 
-5. **Build & Deploy**
-Right-click the project -> **Clean and Build**
-Ensure Apache Tomcat is configured under **Tools > Servers**
-Right -> click the project > **Run**
+5. **Build & Deploy**\
+Right-click the project -> **Clean and Build**\
+Ensure Apache Tomcat is configured under **Tools > Servers**\
+Right -> click the project > **Run**\
 The application will compile, deploy to Tomcat, and open in your default browser.
 
 ## Features
