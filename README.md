@@ -84,7 +84,9 @@ Select the project (it will detect the Maven Web Application)
 Right-click the project -> **Clean and Build**\
 Ensure Apache Tomcat is configured under **Tools > Servers**\
 Right -> click the project > **Run**\
-The application will compile, deploy to Tomcat, and open in your default browser.
+The application will compile, deploy to Tomcat, and open in your default browser.\
+
+***Note**: you can get the ZIP file to import from [release page](https://github.com/minhduckd5/student-management-system/releases/tag/SQL-Queries "Title")*
 
 ## Features
 ### Student Management
@@ -100,5 +102,13 @@ The application will compile, deploy to Tomcat, and open in your default browser
 * **Edit Course**: Modify course metadata.
 * **Delete Course**: Clean up deprecated courses.
 * **Student Enrollment Dropdown**: Dynamic course list in student form for accurate FK assignment.
+
+## Some Screenshots
+### Index page
+![Screenshot 2025-04-19 155914](https://github.com/user-attachments/assets/41323337-3cf1-4b32-8d3c-5b47e13d7495)
+### Add Student
+![Screenshot 2025-04-19 160026](https://github.com/user-attachments/assets/d4939b5a-729d-4544-8948-c64b98ad0a6c)
+### Add Course
+![Screenshot 2025-04-19 160111](https://github.com/user-attachments/assets/de9d02b0-8790-4aef-9211-ddcd80189206)
 
 
