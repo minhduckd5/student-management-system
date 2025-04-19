@@ -1,3 +1,5 @@
+# This is a school project's lab. Not for monetization.
+
 # Student Management System
 
 A comprehensive Java EE web application for managing students and courses, built with JSP, Servlets, MVC architecture, MySQL, and deployed on Apache Tomcat via NetBeans IDE.
